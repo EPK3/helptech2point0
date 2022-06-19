@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/helptech2point0/static/css/main.682eca7e.css",
+    "main.js": "/helptech2point0/static/js/main.49a3f4a4.js",
+    "static/js/787.7c086daf.chunk.js": "/helptech2point0/static/js/787.7c086daf.chunk.js",
+    "static/media/banner-background.webp": "/helptech2point0/static/media/banner-background.bf5fe5797bdd051ccc88.webp",
+    "static/media/laptop-desk.webp": "/helptech2point0/static/media/laptop-desk.e7fcf7bee33d1c99371a.webp",
+    "static/media/service.webp": "/helptech2point0/static/media/service.194dad4f89e404e24ad4.webp",
+    "static/media/hand_phone.webp": "/helptech2point0/static/media/hand_phone.d7c4d773cfebeee4bdd9.webp",
+    "static/media/phone-desk.webp": "/helptech2point0/static/media/phone-desk.cca2474d72340d0326f4.webp",
+    "static/media/tablet.webp": "/helptech2point0/static/media/tablet.582895e8ede2c9701dae.webp",
+    "static/media/bottom-banner.webp": "/helptech2point0/static/media/bottom-banner.1b90cd7b34732eca9802.webp",
+    "static/media/laptop.webp": "/helptech2point0/static/media/laptop.5807d8c1da2f162d5afb.webp",
+    "static/media/logo-main.webp": "/helptech2point0/static/media/logo-main.672fa9de089e02e1644d.webp",
+    "index.html": "/helptech2point0/index.html",
+    "main.682eca7e.css.map": "/helptech2point0/static/css/main.682eca7e.css.map",
+    "main.49a3f4a4.js.map": "/helptech2point0/static/js/main.49a3f4a4.js.map",
+    "787.7c086daf.chunk.js.map": "/helptech2point0/static/js/787.7c086daf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.682eca7e.css",
+    "static/js/main.49a3f4a4.js"
+  ]
+}
