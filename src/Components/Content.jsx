@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 import service from '../img/service.webp';
 import phoneDesk from '../img/phone-desk.webp';
 import laptopDesk from '../img/laptop-desk.webp'
@@ -6,10 +7,13 @@ import handPhone from '../img/hand_phone.webp';
 import tablet from '../img/tablet.webp';
 import laptop from '../img/laptop.webp';
 import bottomBanner from '../img/bottom-banner.webp';
+import { useStateContext } from '../Context/StateContext';
 
 const Content = () => {
+  const { showContact, setShowContact, setShowDropdown } = useStateContext();
+
   return (
-    <div>
+    <div onClick={() => setShowDropdown(false)}>
         <div className='flex flex-wrap bg-light-grey p-28 justify-center'>
             <div className='flex flex-1 m-auto justify-center'>
                 <img src={service} alt='Something went wrong...' className='min-w-[350px]'/>
@@ -56,10 +60,11 @@ const Content = () => {
             <h2 className='text-white xl:text-xl m-5 xl:m-12 '>Your gadgets play a major role in your professional, personal and school life. When your phone, tablet, or laptop breaks you want an expert to handle the repair. That’s where we come in.</h2>
             <h2 className='text-white xl:text-2xl m-5'>Contact HelpTech today for all your PC and Phone repair needs.</h2>
             <div className='text-white my-5 xl:mb-12 mx-auto'>
-                <h2 className='bg-orange xl:text-2xl py-5 px-10 cursor-pointer hover:scale-110 rounded'>Contact Now</h2>
+                <h2 className='bg-orange xl:text-2xl py-5 px-10 cursor-pointer rounded' onClick={() => setShowContact(true)}>Contact Now</h2>
             </div>
           </div>
         </div>
+        {showContact && <Contact/>}
     </div>
   )
 }

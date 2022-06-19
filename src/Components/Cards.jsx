@@ -1,9 +1,12 @@
 import React from 'react'
 import { AiOutlineTool, AiOutlineWifi, AiOutlineWarning, AiOutlineLaptop } from 'react-icons/ai'
+import { useStateContext } from '../Context/StateContext';
 
 const Cards = () => {
+    const { setShowDropdown } = useStateContext();
+
   return (
-    <div className='flex flex-wrap justify-center m-auto my-28'>
+    <div className='flex flex-wrap justify-center m-auto my-28' onClick={() => setShowDropdown(false)}>
         <div className='border border-slate mx-8 my-5 w-[350px] h-[500px] shadow-md rounded'>
             <div className='m-[50px]'>
                 <AiOutlineTool className='bg-orange border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>

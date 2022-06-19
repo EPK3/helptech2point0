@@ -16,7 +16,8 @@ module.exports = {
       'white': '#ffffff',
       'offWhite': '#E0E1E4',
       'cyan': '#29b9f0',
-      'orange': '#FF4822'
+      'orange': '#FF4822',
+      'faded': 'rgba(0, 0, 0, 0.7)',
     },
     extend: {},
   },
