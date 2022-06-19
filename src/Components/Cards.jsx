@@ -6,7 +6,7 @@ const Cards = () => {
     <div className='flex flex-wrap justify-center m-auto my-28'>
         <div className='border border-slate mx-8 my-5 w-[350px] h-[500px] shadow-md rounded'>
             <div className='m-[50px]'>
-                <AiOutlineTool className='bg-cyan border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
+                <AiOutlineTool className='bg-orange border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
             </div>
             <div className='m-[30px]'>
                 <h3 className='text-black text-xl font-bold text-center'>Diagnosis & Repair</h3>
@@ -16,7 +16,7 @@ const Cards = () => {
         </div>
         <div className='border border-slate mx-8 my-5 w-[350px] h-[500px] shadow-md rounded'>
             <div className='m-[50px]'>
-                <AiOutlineWarning className='bg-cyan border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
+                <AiOutlineWarning className='bg-orange border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
             </div>
             <div className='m-[30px]'>
                 <h3 className='text-black text-xl font-bold text-center'>Virus & Spyware Removal</h3>
@@ -26,7 +26,7 @@ const Cards = () => {
         </div>
         <div className='border border-slate mx-8 my-5 w-[350px] h-[500px] shadow-md rounded'>
             <div className='m-[50px]'>
-                <AiOutlineWifi className='bg-cyan border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
+                <AiOutlineWifi className='bg-orange border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
             </div>
             <div className='m-[30px]'>
                 <h3 className='text-black text-xl font-bold text-center'>Home Wi-Fi Setup</h3>
@@ -36,7 +36,7 @@ const Cards = () => {
         </div>
         <div className='border border-slate mx-8 my-5 w-[350px] h-[500px] shadow-md rounded'>
             <div className='m-[50px]'>
-                <AiOutlineLaptop className='bg-cyan border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
+                <AiOutlineLaptop className='bg-orange border-2 border-white rounded-full p-3 text-white text-9xl m-auto'/>
             </div>
             <div className='m-[30px]'>
                 <h3 className='text-black text-2xl font-bold text-center'>Device Setup</h3>

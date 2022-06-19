@@ -3,6 +3,7 @@ import Banner from './Components/Banner';
 import Nav from './Components/Nav';
 import Cards from './Components/Cards';
 import Content from './Components/Content';
+import Footer from './Components/Footer';
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
         <Banner/>
         <Cards/>
         <Content/>
+        <Footer/>
       </div>
     );
   }
