@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { AiFillPhone, AiFillMail, AiOutlineFacebook, AiOutlineInstagram, AiOutlineYoutube, AiOutlineSkype, AiFillCloseCircle } from 'react-icons/ai';
+import { AiFillPhone, AiFillMail, AiOutlineFacebook, AiOutlineInstagram, AiOutlineYoutube, AiOutlineSkype, AiOutlineClose } from 'react-icons/ai';
 import { useStateContext } from '../Context/StateContext';
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='flex my-20 z-0 mx-auto'>
             <div className='flex flex-col xl:flex-row flex-wrap justify-center m-auto'>
                 <div className='bg-orange w-[350px] md:w-[400px] lg:w-[800px] xl:w-[400px] p-10 mx-1 xl:mx-0'>
-                    <AiFillCloseCircle className='absolute text-white text-2xl -m-8 cursor-pointer' onClick={() => setShowContact(false)}/>
+                    <AiOutlineClose className='absolute text-white text-2xl -m-8 cursor-pointer' onClick={() => setShowContact(false)}/>
                     <h1 className='text-white text-2xl mb-5'>Contact Information</h1>
                     <h2 className='text-white mb-5'>Our IT Professionals can set up your new computer, phone or tablet, and diagnose and repair any problems that arise. Now serving all of Bucks and Montgomery County.</h2>
                     <div className='inline-flex text-white align-middle mb-2 hover:opacity-80 cursor-pointer'>
