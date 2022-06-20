@@ -56,7 +56,7 @@ const Contact = () => {
                         <div>
                             <label for='fname' className='text-white'>Message</label>
                             <div className='basis-full m-2'></div>
-                            <textarea id='fname' placeholder='Max. 500 Characters' className='bg-offWhite placeholder-black w-[300px] md:w-[350px] lg:w-[720px] xl:w-[920px] h-56 text-lg p-2 outline-none rounded-sm'/>
+                            <textarea id='fname' maxLength='500' placeholder='Max. 500 Characters' className='bg-offWhite placeholder-black w-[300px] md:w-[350px] lg:w-[720px] xl:w-[920px] h-56 text-lg p-2 outline-none rounded-sm'/>
                         </div>
                         <div className='flex xl:w-[920px] justify-center lg:justify-end mt-4'>
                             <h2 className='text-white text-center w-40 py-3 rounded bg-orange hover:ease-in-out hover:bg-blue hover:scale-110 cursor-pointer'>Submit</h2>
