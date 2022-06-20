@@ -16,12 +16,12 @@ const Content = () => {
     <div onClick={() => setShowDropdown(false)}>
         <div className='flex flex-wrap bg-light-grey p-28 justify-center'>
             <div className='flex flex-1 m-auto justify-center md:mx-5'>
-                <img src={service} alt='Something went wrong...' className='min-w-[350px]'/>
+                <img src={service} alt='Something went wrong...' className='min-w-[350px] w-[600px] 2xl:w-[800px]'/>
             </div>
             <div className='flex-1 text-center m-auto my-10 md:mx-5'>
-                <h1 className='text-4xl xl:text-6xl text-black'>Southeastern PA's</h1>
-                <h1 className='text-8xl lg:text-6xl text-orange font-bold'>Best Choice</h1>
-                <h1 className='text-3xl xl:text-4xl text-black my-3'>For Your Computer Repair and IT Needs!</h1>
+                <h1 className='text-4xl xl:text-7xl text-black'>Southeastern PA's</h1>
+                <h1 className='text-8xl lg:text-6xl xl:text-9xl text-orange font-bold'>Best Choice</h1>
+                <h1 className='text-3xl xl:text-6xl text-black my-3'>For Your Computer Repair and IT Needs!</h1>
                 <h2 className='text-xl xl:text-2xl xl:m-11'>Our IT Professionals can set up your new computer, phone or tablet, and diagnose and repair any problems that arise. Now serving all of Bucks and Montgomery County.</h2>
             </div>
         </div>
@@ -53,9 +53,9 @@ const Content = () => {
           <h1 className='text-center text-black text-xl xl:text-4xl mx-5'>When your phone, tablet, or laptop breaks you want an expert to handle the repair.</h1>
           <h1 className='text-center text-orange text-3xl xl:text-8xl m-5'>That's where we come in.</h1>
           <div className='flex flex-wrap justify-center'>
-            <img src={handPhone} alt='Something went wrong...' className='bg-grey rounded-full xl:w-[400px] xl:h-[400px] w-[350px] h-[350px] m-5 xl:m-12'/>
-            <img src={tablet} alt='Something went wrong...' className='bg-grey rounded-full xl:w-[400px] xl:h-[400px] h-[350px] m-5 xl:m-12'/>
-            <img src={laptop} alt='Something went wrong...' className='bg-grey rounded-full xl:w-[400px] xl:h-[400px] h-[350px] m-5 xl:m-12'/>
+            <img src={handPhone} alt='Something went wrong...' className='bg-grey rounded-full xl:w-[400px] xl:h-[400px] w-[350px] h-[350px] 2xl:h-[500px] 2xl:w-[500px] m-5 xl:m-12'/>
+            <img src={tablet} alt='Something went wrong...' className='bg-grey rounded-full xl:w-[400px] xl:h-[400px] h-[350px] 2xl:h-[500px] 2xl:w-[500px] m-5 xl:m-12'/>
+            <img src={laptop} alt='Something went wrong...' className='bg-grey rounded-full xl:w-[400px] xl:h-[400px] h-[350px] 2xl:h-[500px] 2xl:w-[500px] m-5 xl:m-12'/>
           </div>
         </div>
         <div style={{ backgroundImage: `url('${bottomBanner}')` }}className="flex bg-cover bg-center w-full h-auto z-0">
