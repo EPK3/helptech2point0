@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/helptech2point0/static/css/main.ecec20b4.css",
-    "main.js": "/helptech2point0/static/js/main.d447ba1e.js",
+    "main.js": "/helptech2point0/static/js/main.867955f4.js",
     "static/js/787.7c086daf.chunk.js": "/helptech2point0/static/js/787.7c086daf.chunk.js",
     "static/media/service.webp": "/helptech2point0/static/media/service.1e156e7ab07ada8dd3e6.webp",
     "static/media/banner-background.webp": "/helptech2point0/static/media/banner-background.bf5fe5797bdd051ccc88.webp",
@@ -14,11 +14,11 @@
     "static/media/logo-main.webp": "/helptech2point0/static/media/logo-main.672fa9de089e02e1644d.webp",
     "index.html": "/helptech2point0/index.html",
     "main.ecec20b4.css.map": "/helptech2point0/static/css/main.ecec20b4.css.map",
-    "main.d447ba1e.js.map": "/helptech2point0/static/js/main.d447ba1e.js.map",
+    "main.867955f4.js.map": "/helptech2point0/static/js/main.867955f4.js.map",
     "787.7c086daf.chunk.js.map": "/helptech2point0/static/js/787.7c086daf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecec20b4.css",
-    "static/js/main.d447ba1e.js"
+    "static/js/main.867955f4.js"
   ]
 }
